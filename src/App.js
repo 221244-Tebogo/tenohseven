@@ -7,7 +7,7 @@ import Compare from './pages/compare';
 import Timeline from './pages/timeline';
 //import BasicNavbar from './components/navbar';
 import Sidebar from './components/sidebar';
-import Footer from './components/footer';
+//import Footer from './components/footer';
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Route path='/Compare' element={<Compare />} />
           <Route path='/Time' element={<Timeline />} />
         </Routes>
-<Footer />
 </div>
     </div>
   );
