@@ -1,3 +1,4 @@
+/*This Document contains style sheet for the whole app, I've divided parts with comments */
 .App {
   /* padding: 0.5rem 3.5rem; */
   color: var(--black);
@@ -11,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -28,8 +29,8 @@ main{
   padding: 20px;
 }
 .sidebar{
-  background: #000;
-  color: hsl(0, 69%, 86%);
+  background:#576679;
+  color: hsl(0, 0%, 100%);
   height: 100vh;
   width: 200px;
   transition: all 0.5s;
@@ -68,6 +69,7 @@ main{
 }
 
 /*Content Inside A container*/
+/*App its divided into 3 columns and the structure is here (grid-template-columns)*/
 .AppContainer {
   display: grid;
   height: 97%;
@@ -92,7 +94,7 @@ main{
   } 
 }
 
-/*SideBar */
+/*SideBar Styling */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -108,7 +110,6 @@ main{
 .logo {
   display: flex;
   height: 5rem;
-  font-weight: bold;
   font-size: 22px;
   gap: 1rem;
   align-items: center;
@@ -159,7 +160,7 @@ main{
   content: "";
   width: 8px;
   height: 100%;
-  background: var(--pink);
+  background: var(--#1b2838);
   margin-right: calc(1rem - 8px);
 }
 
@@ -207,3 +208,4 @@ main{
     left: -60%;
   }
 }
+

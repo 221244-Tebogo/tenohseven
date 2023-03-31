@@ -1,4 +1,6 @@
 // Sidebar imports
+// this file contains reusable functions, it links to Sidebar. 
+//this imports icons for sidebar
 import {
     UilEstate,
     UilClipboardAlt,
@@ -17,7 +19,7 @@ import {
   //import img2 from "../imgs/img2.png";
   //import img3 from "../imgs/img3.png";
   
-  // Sidebar Data
+  // Sidebar Data icons & headings
   export const SidebarData = [
     {
       icon: UilEstate,
@@ -90,20 +92,20 @@ import {
   export const UpdatesData = [
     {
       //img: img1,
-      name: "Andrew Thomas",
-      noti: "has ordered Apple smart watch 2500mh battery.",
+      name: "Michelle",
+      noti: "has ordered Digital Card design & Thank you cards.",
       time: "25 seconds ago",
     },
     {
       //img: img2,
-      name: "James Bond",
-      noti: "has received Samsung gadget for charging battery.",
+      name: "Kopano",
+      noti: "has received Perspex song plaque.",
       time: "30 minutes ago",
     },
     {
       //img: img3,
-      name: "Iron Man",
-      noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
-      time: "2 hours ago",
+      name: "David",
+      noti: "has ordered Picnic Basket with flowers.",
+      time: "2 weeks ago",
     },
   ];
