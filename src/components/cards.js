@@ -1,5 +1,6 @@
 import React from 'react';
-import cardsData from '../Data/data';
+import { cardsData } from '../Data/data';
+import Card from '../components/card';
 //import Card from 'react-bootstrap/Card'
 
 //Assigning props to the Card ()
@@ -10,7 +11,7 @@ const cards = () => {
         {cardsData.map((card, id) => {
         return (
             <div className="parentContainer" key={id}>
-            <cardsData
+            <Card
                 title={card.title}
                 color={card.color}
                 barValue={card.barValue}
