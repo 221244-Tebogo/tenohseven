@@ -1,6 +1,5 @@
 // Sidebar imports
 // this file contains reusable functions, it links to Sidebar. 
-//this imports icons for sidebar
 import {
     UilEstate,
     UilClipboardAlt,
@@ -19,7 +18,7 @@ import {
   //import img2 from "../imgs/img2.png";
   //import img3 from "../imgs/img3.png";
   
-  // Sidebar Data icons & headings
+  // Sidebar Data
   export const SidebarData = [
     {
       icon: UilEstate,
@@ -35,9 +34,10 @@ import {
     },
   ];
   
-  // Analytics Cards Data
+  // This is an array that exports cards data to display on the main App.js (dashboard) Analytics Cards Data
   export const cardsData = [
     {
+      //Javascript Object, below value are Sales, Revenue and Expenses data
       title: "Sales",
       color: {
         backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
@@ -106,6 +106,8 @@ import {
       //img: img3,
       name: "David",
       noti: "has ordered Picnic Basket with flowers.",
-      time: "2 weeks ago",
+      time: "2 hours ago",
     },
   ];
+
+  export default cardsData;

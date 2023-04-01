@@ -6,6 +6,7 @@ import { SidebarData } from '../Data/data';
 import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
 
+//useState(0) means 1st on the menu button will be deac
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
 

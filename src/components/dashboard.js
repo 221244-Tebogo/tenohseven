@@ -1,9 +1,11 @@
 import React from 'react'
+import '../App.css';
+import Cards from '../components/cards';
 
 const dashboard = () => {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className='Dashboard'>
+    <Cards/>
     </div>
   )
 }
